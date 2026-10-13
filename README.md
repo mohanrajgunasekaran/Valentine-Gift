@@ -1,48 +1,55 @@
 # 💝 Valentine's Day Proposal Prank App
 
-A fun, interactive React application designed to prank your special someone on Valentine's Day! 
+A playful, interactive React web app built for a light-hearted Valentine's Day prank. It combines a moving button, surprise messaging, animated hearts, and a celebratory reveal.
 
 ## ✨ Features
 
-- **Playful "Yes" Button**: The "Yes" button is elusive! It moves away when hovered and changes its text to tease the user ("Please No 🥰", "think again 😃").
-- **The "No" Button Twist**: Clicking "No" is actually the way to proceed... but wait for the surprise!
-- **April Fool Prank**: Instead of a romantic acceptance, the user is greeted with an "April Fool" message and a funny video.
-- **Visual Effects**: 
-  - Floating hearts background animation.
-  - Continuous confetti celebration on the success screen.
-  - Glassmorphism card design.
-- **Responsive Design**: Works on desktop and mobile (though chasing the button is more fun with a mouse!).
+- **Playful button interaction:** The “Yes” button moves away and changes its message when interacted with.
+- **Surprise reveal:** The alternate choice leads to the app's prank message and video.
+- **Animated effects:** Floating hearts, confetti, and a glassmorphism-inspired card.
+- **Responsive layout:** Designed to work on desktop and mobile screens.
 
-## 🛠️ Built With
+## 🧰 Tech Stack
 
-- **React** (Vite)
-- **Canvas Confetti** for celebrations
-- **CSS3** for animations and styling
+- **React** with **Vite**
+- **CSS3** for layout, transitions, and animation
+- **Canvas Confetti** for the celebration effect
 
-## 🚀 How to Run
+## 🚀 Run Locally
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/valentines-day.git
-    cd valentines-day
-    ```
+### Prerequisites
 
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
+- Node.js and npm installed
 
-3.  **Run the development server**:
-    ```bash
-    npm run dev
-    ```
+### Setup
 
-4.  Open your browser and navigate to the local host URL (usually `http://localhost:5173`).
+```bash
+git clone https://github.com/mohanrajgunasekaran/Valentine-Gift.git
+cd Valentine-Gift
+npm install
+npm run dev
+```
 
-## 📝 Customization
+Open the local URL printed by Vite (usually http://localhost:5173).
 
-- **Video**: Replace `src/assets/vid.mp4` with your own video file.
-- **Text**: Update the messages in `src/App.jsx` to personalize the name and prank text.
-- **Images**: You can swap the favicon in `public/heart.svg`.
+## 🎨 Customize the App
 
-Enjoy pranking! 💖😂
+- **Messages and interaction:** Update the relevant content and event handlers in `src/App.jsx`.
+- **Video:** Replace `src/assets/vid.mp4` with a video you have permission to use, keeping the filename/path consistent with the code.
+- **Styling:** Adjust the CSS files to change colours, spacing, animations, and responsive behaviour.
+- **Assets:** Replace public assets with your own appropriately licensed images or icons.
+
+## 🧪 Before Publishing
+
+- Run `npm run build` to verify the production build.
+- Test the interaction with mouse, keyboard, and touch.
+- Check the layout at both mobile and desktop widths.
+- Confirm any video or media assets are included and load correctly.
+
+## 📌 Project Notes
+
+This is a small creative front-end project intended for learning and entertainment. It is not designed to collect personal information.
+
+---
+
+Made with React, CSS, and a little mischief 💖
